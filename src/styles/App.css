@@ -1,0 +1,118 @@
+/* Base Application Styles */
+body {
+    margin: 15px 0 0 0;
+    background-color: slategray;
+}
+
+#wrapper {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    float: left;
+    width: 1024px;
+    background-color: #fff;
+    color: #566269;
+    position: absolute;
+    left: 50%;
+    margin-left: -512px;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px #566269;
+}
+
+#header h1, #header h2 {
+    margin: 0;
+    padding: 4px 0 0 10px;
+}
+
+#container, #section {
+    display: flex;
+    margin-top: 10px;
+}
+
+#main, #photo img {
+    width: 580px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 6px;
+}
+
+#aside {
+    width: 444px;
+}
+
+#info {
+    font-size: 20px;
+}
+
+#info label {
+    width: 160px;
+    margin-left: 20px;
+}
+
+#info label, #info strong {
+    float: left;
+    height: 35px;
+}
+
+#info hr {
+    clear: both;
+    border-top: solid 1px #eee;
+}
+
+#control {
+    clear: both;
+    margin-left: 20px;
+}
+
+#control #clock {
+    width: 404px;
+    border-radius: 12px;
+    background-color: slategray;
+    color: #fff;
+    font-size: 125px;
+    text-align: center;
+}
+
+#control button {
+    width: 404px;
+    padding: 12px;
+    font-size: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+    background-color: lightseagreen;
+    border: none;
+    color: #fff;
+}
+
+#control button:focus {
+    outline: 0;
+    cursor: pointer;
+}
+
+#bid {
+    margin-left: 10px;
+    width: 335px;
+}
+
+#bid h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+#bid h3 strong {
+    font-size: 38px;
+    color: crimson;
+}
+
+#bid h4 {
+    margin: 0;
+    font-size: 30px;
+}
+
+#bid-more h4 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+}
+
+#bid-more label, #bid-more strong {
+    float: left;
+    width: 90px;
+    height: 26px;
+}
