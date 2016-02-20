@@ -1,0 +1,5 @@
+[run]
+source = auction
+
+[report]
+omit = */migrations/*,auction/core/apps.py,auction/wsgi.py
