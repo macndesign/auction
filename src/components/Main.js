@@ -2,6 +2,7 @@ require('normalize.css');
 require('styles/App.css');
 
 import React from 'react';
+import Header from 'components/HeaderComponent';
 
 let foxImage = require('../images/fox.jpg');
 
@@ -9,10 +10,7 @@ class AppComponent extends React.Component {
   render() {
     return (
       <div id="wrapper">
-        <div id="header">
-          <h1>VW - Fox 1.6 Prime GII Flex - 2011/2012 - Prata</h1>
-          <h2>Início: 20/02/2016 às 10:00h - Lote: 00123</h2>
-        </div>
+        <Header />
         <div id="container">
           <div id="main">
             <div id="photo">

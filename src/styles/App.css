@@ -17,11 +17,6 @@ body {
     box-shadow: 5px 5px 5px #566269;
 }
 
-#header h1, #header h2 {
-    margin: 0;
-    padding: 4px 0 0 10px;
-}
-
 #container, #section {
     display: flex;
     margin-top: 10px;
