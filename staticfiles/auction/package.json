@@ -19,7 +19,7 @@
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
     "release:patch": "npm version patch && npm publish && git push --follow-tags"
   },
-  "repository": "",
+  "repository": "https://github.com/macndesign/auction",
   "keywords": [],
   "author": "Your name here",
   "devDependencies": {

@@ -4,7 +4,7 @@ import React from 'react';
 
 require('styles//Header.css');
 
-class HeaderComponent extends React.Component {
+class Header extends React.Component {
   render() {
     return (
       <div id="header">
@@ -15,10 +15,10 @@ class HeaderComponent extends React.Component {
   }
 }
 
-HeaderComponent.displayName = 'HeaderComponent';
+Header.displayName = 'Header';
 
 // Uncomment properties you need
 // HeaderComponent.propTypes = {};
 // HeaderComponent.defaultProps = {};
 
-export default HeaderComponent;
+export default Header;

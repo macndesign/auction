@@ -6,7 +6,7 @@
 // Uncomment the following lines to use the react test utilities
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
-import Header from 'components/HeaderComponent';
+import Header from 'components/Header';
 
 describe('HeaderComponent', () => {
   let component;

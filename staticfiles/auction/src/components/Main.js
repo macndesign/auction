@@ -2,7 +2,7 @@ require('normalize.css');
 require('styles/App.css');
 
 import React from 'react';
-import Header from 'components/HeaderComponent';
+import Header from 'components/Headerseparations';
 
 let foxImage = require('../images/fox.jpg');
 
