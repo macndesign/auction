@@ -2,7 +2,8 @@ require('normalize.css');
 require('styles/App.css');
 
 import React from 'react';
-import Header from 'components/Headerseparations';
+import Header from 'components/Header';
+import InfoItems from 'components/InfoItems';
 
 let foxImage = require('../images/fox.jpg');
 
@@ -27,32 +28,19 @@ class AppComponent extends React.Component {
               </div>
               <div id="bid-more">
                 <h4>Total de 17 lances</h4>
-                <label for="user">Usuário</label>
+                <label htmlFor="user">Usuário</label>
                 <strong id="user">Platéia</strong>
                 <br />
-                <label for="city">Cidade</label>
+                <label htmlFor="city">Cidade</label>
                 <strong id="city">Fortaleza</strong>
                 <br />
-                <label for="send">Enviado às</label>
+                <label htmlFor="send">Enviado às</label>
                 <strong id="send">11:17:33</strong>
               </div>
             </div>
           </div>
           <div id="aside">
-            <div id="info">
-              <label for="principal">Comitente</label>
-              <strong id="principal">Banco Bradesco S/A</strong>
-              <hr />
-              <label for="evaluation">Avaliação</label>
-              <strong id="evaluation">R$ 12.100,00</strong>
-              <hr />
-              <label for="starting">Lance inicial</label>
-              <strong id="starting">R$ 6.000,00</strong>
-              <hr />
-              <label for="increasing">Incremento</label>
-              <strong id="increasing">R$ 500,00</strong>
-              <hr />
-            </div>
+            <InfoItems />
             <div id="control">
               <h4><em>Contagem regressiva</em></h4>
               <div id="clock">00:42</div>

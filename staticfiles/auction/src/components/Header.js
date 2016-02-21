@@ -18,7 +18,7 @@ class Header extends React.Component {
 Header.displayName = 'Header';
 
 // Uncomment properties you need
-// HeaderComponent.propTypes = {};
-// HeaderComponent.defaultProps = {};
+// Header.propTypes = {};
+// Header.defaultProps = {};
 
 export default Header;
